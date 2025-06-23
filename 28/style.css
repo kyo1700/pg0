@@ -1,0 +1,497 @@
+body{
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+/*　↓すべてのhtmlに反映↓　*/
+body{
+    content: "";
+    min-height: 100vh;
+    background-size: cover;
+    box-sizing: content-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.title{
+    color: red;
+    margin-top: 10%;
+    font-size: 200px;
+    font-family: 'Londrina Shadow', cursive;
+    font-weight: bold;
+    text-align: center;
+}
+
+.syoukai{
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 13%;
+    font-family: 'Yusei Magic', sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+iframe{
+    border: 0;
+}
+/*　↑すべてのhtmlに反映↑　*/
+
+/*　nav始　*/
+.maindiv ul{
+    width: 100%;
+    padding: 20px 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin: 0;
+    display: flex;justify-content: space-around;
+    position: fixed;top: 0;
+    font-family: 'Economica', sans-serif;
+    font-size: 25px;
+    box-sizing: border-box;
+}
+
+.maindiv a{
+    color: #333333;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.maindiv a:hover{
+    background-color: rgba(255, 255, 255, 0.6);
+}
+/*　nav終　*/
+
+/*　home始　*/
+#name, .home-down{
+    padding: 30px;
+    color: #3a2f2f;
+    border-radius: 10px;
+    font-family: "Kiwi Maru", serif;
+    font-weight: 400;
+    font-size: 30px;
+    box-sizing: border-box;
+}
+
+#name{
+    margin: 10% 5% 5% 5%;
+    background-color: rgb(200, 219, 255);
+    display: flex;
+}
+
+.home-down{
+    margin: 7% 30% 5% 30%;
+    background-color: rgb(178, 193, 222);
+    color: #3a2f2f;
+    text-align: center;
+}
+
+.home-down a{
+    color: rgb(83, 107, 152);
+}
+
+#my{
+    width: 40%;
+    margin-left: 15%;
+}
+
+#icon{
+    width: 30%;
+    border: none;
+    object-fit: cover;
+}
+/*　home終　*/
+
+/*　28-1始　*/
+#sea{   
+    background-image: url(image/back-sea.jpg);
+}
+
+#sea .syoukai{
+    color: rgb(242, 255, 67);
+}
+
+.kannkou{
+    margin: 0;
+    color: rgb(48, 48, 48);
+    font-family: "Rampart One", sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+.kannkou p{
+    padding: 10px 10px;
+    margin-right: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: rgba(145, 167, 255, 0.65);
+    text-align: center;
+    font-family: "Zen Kurenaido", sans-serif;
+    box-sizing: border-box;
+}
+
+.kannkou h1{
+    margin-left: 85px;
+}
+
+.kannkou h2{
+    margin-left: 175px;
+    color: #ff3885;
+    font-family: "Shippori Antique", sans-serif;
+}
+
+.kannkou img{
+    width: 35%;
+    height: 30%;
+    margin: 50px 0px 50px 0px;
+    object-fit: cover;
+}
+
+.kannkou strong,small{
+    color: #ffffff;
+}
+
+#list{
+    padding-left: 0;
+}
+
+#ooto{
+    width: 45%;
+    height: 500px;
+}
+
+.totoro iframe{
+    width: 45%;
+    height: 500px;
+}
+
+.sakurai iframe{
+    width: 90%;
+}
+
+#uranomiya{
+    width: 100%;
+    margin-right: 0;
+}
+
+.totoro,.sakurai{
+    display: flex;justify-content: space-around;flex-wrap: wrap;
+    margin: 50px;
+}
+
+.kannkou p,iframe,img{
+    border-radius: 10px;
+    border: solid 2px #ffffffd6;
+}
+
+/*　28-1終　*/
+
+/*　28-2始　*/
+#dog{
+    background-image: url(image/backimg.JPG);
+}
+
+#dog .syoukai{
+    color: #ffffff;
+}
+
+#Gin,#Suzu{
+    display: flex;justify-content: space-around;
+    box-sizing: border-box;
+
+}
+
+.dog-name{
+    width: 250px;
+    height: 350px;
+    background-color: crimson;
+    color: #333333;
+    margin-top: 100px;
+    font-family: "Hachi Maru Pop", cursive;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #b20808;
+    box-sizing: border-box;
+}
+
+.dog-name ul{
+    padding-left: 0;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.dog-name li{
+    margin-top: 20px;
+}
+
+.photo1 img{
+    width: 300px;
+    height: 350px;
+    margin: 100px 5px 0px 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #959595;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+
+#Suzu-name{
+    width: 50%;
+    padding: 20px 50px 20px 50px;
+    font-family: "Hachi Maru Pop", cursive;
+}
+
+.pair{
+    font-family: "Hachi Maru Pop", cursive;
+    color: #fff;
+    margin: 100px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.pair img{
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #959595;
+}
+
+.pagetop {
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    background: #fff;
+    border: solid 2px #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.pagetop__arrow {
+    height: 10px;
+    width: 10px;
+    border-top: 3px solid #000;
+    border-right: 3px solid #000;
+    transform: translateY(20%) rotate(-45deg);
+}
+/*　28-2終　*/
+
+/*　28-3始　*/
+#hobby{
+    background-image: url(image/prsk.jpg);
+    background-size: 100%;
+}
+
+/*↓28-3,28-4に反映↓*/
+.prsk,.hobby-down{
+    padding: 10px 10px;
+    margin: 100px 30px 30px 30px;
+    background: linear-gradient(90deg, rgba(68, 68, 102, .8) 0, rgba(68, 68, 102, .6) 100%);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.prsk h2,.hobby-down{
+    color: #fff;
+    font-size: 3vw;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    letter-spacing: .06em;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.prsk-stmi-ga,.prsk-stmi-4,.yunitto p{
+    color: #557;
+    font-family: "M PLUS 1", sans-serif;
+}
+
+.prsk-stmi-ga,.prsk-stmi-4{
+    padding: 10px 20px 10px 20px;
+    margin: 50px;
+    background: rgba(238, 238, 244, .8);
+    border-radius: 10px;
+    line-height: 2;
+    font-size: 2vw;
+    font-weight: 500;
+}
+
+.prsk-stmi-ga{
+    display: flex;
+}
+
+.prsk-stmi-ga strong,.prsk-stmi-ga h2,.prsk-stmi-4 strong,.prsk-stmi-4 h2{
+    margin-top: 10px;
+    font-weight: 900;
+}
+/*↑28-3,28-4に反映↑*/
+
+.prsk-stmi-ga a{
+    display: inline-block;
+    width: fit-content;
+}
+
+#gamelogo{
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 10px;
+    display: block;align-items: center;
+    border: none;
+    object-fit: cover;
+}
+
+.yunitto{
+    margin-top: 200px;
+    text-align: center;
+}
+
+.logo , .menber, .yunitto-mv iframe{
+    border: none;
+}
+
+.yunitto p{
+    position: sticky;height: 50px;
+    font-weight: 800;
+}
+
+.yunitto a{
+    font-size: 30px;
+}
+
+.yunitto .logo{
+    width: 35%;
+}
+
+.yunitto .menber{
+    width: 50%;
+    margin-bottom: 40px;
+}
+
+.yunitto-mv{
+    display: flex;justify-content: space-around;
+}
+
+#black{
+    color: #333333;
+}
+
+#blue{
+    color: #4455dd;
+}
+
+#green{
+    color: #88dd44;
+}
+
+#vivid{
+    color: #ee1166;
+}
+
+#yellow{
+    color: #ff9900;
+}
+
+#purple{
+    color: #884499;
+}
+
+#kohane{
+    color: #ff6699;
+}
+
+#ann{
+    color: #00bbdd;
+}
+
+#akito{
+    color: #ff7722;
+}
+
+#toya{
+    color: #0077dd;
+}
+/*　28-3終　*/
+
+/*　28-4始　*/
+#run{
+    background-image: url(image/squad-back.png);
+}
+
+#k-t{
+    width: 100%;
+    padding-right: 10px;
+    margin-top: 50px;
+    margin-left: 20px;
+    text-align: center;
+    background: linear-gradient(90deg, #ff6699 15%, #00bbdd 40%, #ff7722 60%, #0077dd 85%);
+    background-clip: text;
+    font-family: "BIZ UDPMincho", serif;
+    font-weight: 300;
+    -webkit-text-fill-color: transparent;
+}
+
+#annjyuni {
+    width: 45%;
+    margin: 30px 0px 30px 50px;
+    border: none;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+
+#chapter{
+    align-items: center;
+    font-style: italic;
+}
+
+#chapter h3,#chapter p{
+    font-family: "Zen Antique", serif;
+    font-weight: 200;
+    font-size: 3vw;
+    text-align: center;
+    line-height: 1;
+}
+
+#chapter h3{
+    letter-spacing: 0.3em;
+}
+
+#chapter p{
+    color: #00bbdd;
+}
+/*　28-4終　*/
+
+/*　28-5始　*/
+#music{
+    background-color: #0c0c0c;
+}
+
+#music{
+    color: #ffffff;
+}
+
+#skz-logo{
+    width: 60%;
+    object-fit: cover;
+    border: none;
+}
+
+.stray, .kyoku, #stay{
+    text-align: center;
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.stray a, #stay a{
+    color: #ce1515;
+    font-size: 50px;
+}
+/*　28-5終　*/
